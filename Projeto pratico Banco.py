@@ -24,6 +24,7 @@ class ContaBancaria:
                 print(f"Saque de R$ {valor:.2f} realizado com sucesso!")
             elif valor > self.saldo:
                 print("Não é possível sacar. Saldo insuficiente.")
+                print("")
             else:
                 print("O valor do saque deve ser até R$ 500,00.")
         else:
